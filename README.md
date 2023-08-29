@@ -1,7 +1,7 @@
 <h1>FINO1 Turbulence Characteristics</h1>
 
 <p>
-This repository contains MATLAB functions and a live script that provides visualizations to understand the turbulence characteristics on FINO1 based on wind data. 
+This repository contains MATLAB functions and a live script that provides visualizations to understand the turbulence characteristics on FINO1 based on wind data. The data set has been used in previous publications, e.g. [1,2,3]
 </p>
 
 
@@ -11,16 +11,15 @@ This repository contains MATLAB functions and a live script that provides visual
 The data used in this repository can be found at the following Zenodo repository: <a href="https://doi.org/10.5281/zenodo.8296894">https://doi.org/10.5281/zenodo.8296894</a>
 </p>
 
-<h2>Table of Contents</h2>
+<h2>Content </h2>
+The repository contains the following files and folder:
+
 <ul>
-    <li>Load the data</li>
-    <li>Mean flow characteristics</li>
-    <li>Visualize u* as a function of stdU (near neutral conditions)</li>
-    <li>Visualize turbulence intensities Iu, Iv, and Iw</li>
-    <li>Visualize turbulence standard deviation ratios (neutral conditions)</li>
-    <li>Visualize STD</li>
-    <li>Cross-wind turbulence length scales</li>
-    <li>Visualize PSD</li>
+    <li>dataAnalysed: Folder containing the data                           </li>
+    <li>Documentation.mlx : livescript illustrating the use of the dataset </li>
+    <li>label.m: Function to write label in figures                        </li>
+    <li>mergeStructs.m:  Function to concatenate the data                  </li>
+    <li>binAveraging.m: Function for binning data                          </li>
 </ul>
 
 <h2>Usage</h2>
@@ -31,6 +30,19 @@ To get started, ensure that the data is stored in the <code>dataAnalysed</code> 
 <p>
 Run the LiveScript to visualize the turbulence characteristics based on the dataset. Make sure MATLAB is set to the directory containing the script and the <code>dataAnalysed</code> folder.
 </p>
+
+<p>
+This is the first version of the submission. Som bugs may still be present. 
+</p>
+
+<h2> Relevance and Applications:</h2>
+
+ <ul>
+    <li>Exploration of the validity of various turbulence models (e.g., Kaimal or Mann spectral models) in offshore environments.                                    </li>
+    <li>Study of the single-point auto-spectral and cross-spectral densities of wind turbulence.                                                                     </li>
+    <li>Assessment of the applicability of certain standards, such as IEC 61400-1 and IEC 61400-3, especially in the context of the North Sea wind turbines.         </li>
+ </ul>
+    
 <h3>List of References</h3>
 <ol>
     <li>Cheynet, E., Jakobsen, J. B., &amp; Obhrai, C. (2017). Spectral characteristics of surface-layer turbulence in the North Sea. <i>Energy Procedia</i>, 137, 414-427. Elsevier.</li>
