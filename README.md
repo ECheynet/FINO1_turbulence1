@@ -32,7 +32,7 @@ Run the LiveScript to visualize the turbulence characteristics based on the data
 </p>
 
 <p>
-This is the first version of the submission. Som bugs may still be present. 
+This is the first version of the submission. Some bugs may still be present. 
 </p>
 
 <h2> Relevance and Applications:</h2>
