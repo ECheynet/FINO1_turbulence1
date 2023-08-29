@@ -1,5 +1,7 @@
 <h1>FINO1 wind Turbulence Characteristics</h1>
 
+[![View FINO1 wind Turbulence Characteristics on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://se.mathworks.com/matlabcentral/fileexchange/134446-fino1-wind-turbulence-characteristics)
+
 <p>
 This repository contains MATLAB functions and a live script that provides visualizations to understand the turbulence wind characteristics on FINO1. The data set has been used in previous publications, e.g. [1,2,3]
 </p>
