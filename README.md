@@ -1,4 +1,4 @@
-<h1>FINO1 Turbulence Characteristics</h1>
+<h1>FINO1 wind Turbulence Characteristics</h1>
 
 <p>
 This repository contains MATLAB functions and a live script that provides visualizations to understand the turbulence wind characteristics on FINO1. The data set has been used in previous publications, e.g. [1,2,3]
